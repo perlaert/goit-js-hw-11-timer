@@ -9,6 +9,7 @@ class Timer {
   }
 
   start() {
+    this.updateTimer();
     setInterval(() => {
       this.updateTimer();
     }, 1000);
